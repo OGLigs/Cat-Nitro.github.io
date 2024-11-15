@@ -12,7 +12,7 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-To modify this software or any files in a "Meanigful Way", you must have changed with it 10,000 Characters in total. Excluded characters such as: " ", "-", "\", or any other kind of character used more than ten times in a row will not be accepted.
+To modify this software or any files in a "Meanigful Way", you must have changed with it 10,000 Characters in total. Excluded characters such as: " ", "-", "\", or any other kind of character used more than ten times consecuitivley will not be accepted.
 
 Selling access to this Software as is, or any other form of "Gate Keeping" in which the "Gate Keeper" gains a profit, is strictly forbidden. To distribute this software, you must have modified this Software in a "Meaningful Way", 
 
