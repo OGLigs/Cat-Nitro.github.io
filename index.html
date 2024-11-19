@@ -29,20 +29,20 @@
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background-color: #F5F5DC;
+            background-color: #000000;
             color: white;
         }
         .motd-container {
             width: 100%;
             background-color: black;
-            border: 2px solid lime;
+            border: 2px solid red;
             overflow: hidden;
             white-space: nowrap;
             box-sizing: border-box;
         }
         .motd-text {
             display: inline-block;
-            color: white;
+            color: limegreen;
             font-size: 20px;
             animation: scrollText linear infinite;
         }
@@ -58,12 +58,14 @@
 </head>
 
 <body>
-    
+    <div id="videoContainer" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+        <video id="randomVideo" src="assets/music/mariah.mp4" width="640" height="360" controls></video>
+    </div>
 
     <!-- Message of the Day Scroller -->
     <div class="motd-container">
         <div class="motd-text">
-           ice cube lady is warming up 🤫     </div>
+           BREAKING NEWS: people are getting mad the christmas update came 11 days early. Owner responds with, "no one asked for your opinon", and, "Skiding IS A CRIME" as a result to a recent skid attack.  </div>
     </div>
 
     <!-- Existing content -->
@@ -584,16 +586,16 @@
     </center>
 
     <div class="callout">
-        <div class="callout-header"><a href="https://forms.gle/QFicVgrPfdtSnfcN7" class="img"><img src="assets/img/logo.png" alt="epick made by Evaen Shoutsz" style="width:45px;height:45px;"></a><- Click to request game!</div>
+        <div class="callout-header"><a href="https://cat-nitro.github.io/polls.html" class="img"><img src="assets/img/logo.png" alt="epick made by Evaen Shoutsz" style="width:45px;height:45px;"></a>Game Requests Being MOVED!</div>
         <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
         <div class="callout-container">
-          <b class="webApp">I'm now opening game requests! You can click the Cat Nitro logo to request a game!</b>
+          <b class="webApp">I'm now moving game requests! The new page can be found in the "Emulators & Others" section. This will be here until friday.</b>
         </div>
       </div>
 
     <div class="alert">
         <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
- undergoing christmas update may look bad :P
+IT'S TIMMMMEEEEEE!! (added secret easter egg for the godess)  
     </div>
     
           <font color="blue">
@@ -626,12 +628,18 @@
               <b><p class="link">DS Emulator</p></b>
             </a>
     
+            <a href="games.html">
+                <b><p class="link">Game Requests</p></b>
+              </a>
              <!-- <a href="https://catman6112.github.io/cat-nitro-2/">
                 <b><p class="link">Cat-Nitro 2!</p></b>
               </a> -->
     
         </center>
 
+
+        
+                
 
     <script>
         // MOTD Scroll Speed Adjustment
@@ -661,6 +669,42 @@
             });
         }
     </script>
+
+
+
+
+    <!-- Video container with "alert" class -->
+    <div id="videoContainer" class="alert" style="display: none;">
+        <video id="randomVideo" src="assets/music/mariah.mp4" width="720" height="1080" controls></video>
+    </div>
+
+    <script>
+        // Function to make the video visible and slide up
+        function showAndSlideUpVideo() {
+            const videoContainer = document.getElementById('videoContainer');
+            if (videoContainer) {
+                // Make the container visible
+                videoContainer.style.display = "block";
+
+                // Add animation for sliding up
+                videoContainer.style.transition = "transform 1s ease-in-out";
+                videoContainer.style.transform = "translate(-50%, -150%)"; // Slide up
+            }
+        }
+
+        // Function to check the 1 in 100 chance
+        function performRandomCheck() {
+            const chance = Math.floor(Math.random() * 100) + 1; // Random number between 1 and 100
+            if (chance === 1) {
+                showAndSlideUpVideo();
+            }
+        }
+
+        // Run the check every 5 seconds
+        setInterval(performRandomCheck, 5000);
+    </script>
+
+
 
 </body>
 </html>
