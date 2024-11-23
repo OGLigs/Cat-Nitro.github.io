@@ -676,7 +676,18 @@ w ashton for that kitkat
         }
     </script>
 
+<script>
+    // Hostname validation script
+    const allowedHosts = ["catman6112.github.io", "cat-nitro.github.io"];
+    const currentHost = window.location.hostname;
 
+    console.log("Current Host:", currentHost);
+
+    if (!allowedHosts.includes(currentHost)) {
+        // Redirect to the anti-skid meme if unauthorized
+        window.location.href = "https://www.youtube.com/watch?v=zMBqPdMzZ9E";
+    }
+</script>
 
 
     <!-- Video container with "alert" class -->
