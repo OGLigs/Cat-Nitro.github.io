@@ -1,5 +1,4 @@
 # Cat-Nitro Original Contributer:
-(yes that is spelled right i pwomise :3
 
 OG Cat-Nitro, or Pepsi Nitro was originally created by Dr Doomsday (who coincidentally creates discord meme yt shorts and makes thousands of dollars a month maybe ill try that)
 
